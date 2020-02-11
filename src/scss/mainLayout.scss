@@ -1,5 +1,29 @@
 $block : ".mainLayout";
 
 #{$block}{
-  background-color: red;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  &__dashboard{
+    max-width: calc(100vw - 472px);
+    overflow: auto;
+    height: 100%;
+    &-wrapper{
+      padding: 32px 40px 24px;
+      border-right: 1px solid #eaeae9;
+      box-sizing: border-box;
+    }
+    &-inner{
+      min-width: 1240px;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+  }
+  &__aside{
+    flex: 1;
+    display: flex;
+  }
 }

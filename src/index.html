@@ -1,46 +1,221 @@
 <!DOCTYPE html>
 <html lang="ru">
     <head>
-        <title>Sleep School</title>
+        <title>BBQ</title>
         <link rel="stylesheet" href="css/app.css">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
 <body>
   <div class="mainLayout">
-    <div class="mainLayout__inner">
-      <header class="mainLayout__header">
-        <a href="#" class="mainLayout__header-prevLink link">
-          <img src="images/prev-arrow-left.svg" class="mainLayout__header-prevLink-img" alt="prev">
-        </a>
-ffffFFFFFFFFFaq
+    <!-- @@include('./partial/mainDashboard.html') -->
+    <div class="mainLayout__dashboard-wrapper">
+      <main class="mainLayout__dashboard">
+        <div class="mainLayout__dashboard-inner">
+          <div>
+            <header class="header">
+              <div class="header__title-wrapper">
+                <p class="header__title">Conway’s BBQ Team</p>
+                <p class="header__subTitle">Location ID# CONWAY123</p>
+              </div>
+              <div class="header__info">
+                <div class="header__synced">
+                  <p class="header__synced-label">Last Synced</p>
+                  <p class="header__synced-time">3 min ago</p>
+                </div>
+                <button class="header__helpBtn link">
+                  <img src="images/help-circle.svg" class="header__helpBtn-icon" alt="need help">
+                  Help
+                </button>
+              </div>
+            </header>
 
-        <p class="mainLayout__header-title">Sleep School App</p>
-      </header>
+            <nav class="positionFilter__wrapper">
+              <ul class="positionFilter__list">
+                <li class="positionFilter__item positionFilter__item--active">
+                  All items
+                </li>
+                <li class="positionFilter__item">
+                  Food
+                </li>
+                <li class="positionFilter__item">
+                  Alcohol
+                </li>
+                <li class="positionFilter__item">
+                  Cold Drinks
+                </li>
+                <li class="positionFilter__item">
+                  Hot Drinks
+                </li>
+              </ul>
+            </nav>
 
-      <div class="sleepSchoolApp__wrapper sleepSchoolApp__applyVoucher-wrapper">
-        <p class="sleepSchoolApp__applyVoucher-title">Thank you for creating an account <br/> and confirming your email address.</p>
-        <h4 class="sleepSchoolApp__title">Apply Your Voucher</h4>
+            <div class="product__wrapper">
+              <ul class="product__list">
+                <li class="product__item">
+                  <div class="product__item-info">
+                    <p class="product__item-title">Ranch Burgers</p>
+                    <p class="product__item-weight">150g</p>
+                  </div>
+                  <p class="product__item-price">$7.75</p>
+                  <img src="images/product-icon.svg"  class="product__item-img" alt="product">
+                </li>
+                <li class="product__item">
+                  <div class="product__item-info">
+                    <p class="product__item-title">Mushroom Burgers</p>
+                    <p class="product__item-weight">150g</p>
+                  </div>
+                  <p class="product__item-price">$7.00</p>
+                  <img src="images/empty-product-icon.svg"  class="product__item-img" alt="product">
+                </li>
+                <li class="product__item">
+                  <div class="product__item-info">
+                    <p class="product__item-title">Ranch Burgers</p>
+                    <p class="product__item-weight">150g</p>
+                  </div>
+                  <p class="product__item-price">$7.75</p>
+                  <img src="images/product-icon.svg"  class="product__item-img" alt="product">
+                </li>
+                <li class="product__item">
+                  <div class="product__item-info">
+                    <p class="product__item-title">Mushroom Burgers</p>
+                    <p class="product__item-weight">150g</p>
+                  </div>
+                  <p class="product__item-price">$7.00</p>
+                  <img src="images/empty-product-icon.svg"  class="product__item-img" alt="product">
+                </li>
+                <li class="product__item">
+                  <div class="product__item-info">
+                    <p class="product__item-title">Ranch Burgers</p>
+                    <p class="product__item-weight">150g</p>
+                  </div>
+                  <p class="product__item-price">$7.75</p>
+                  <img src="images/product-icon.svg"  class="product__item-img" alt="product">
+                </li>
+                <li class="product__item">
+                  <div class="product__item-info">
+                    <p class="product__item-title">Mushroom Burgers</p>
+                    <p class="product__item-weight">150g</p>
+                  </div>
+                  <p class="product__item-price">$7.00</p>
+                  <img src="images/empty-product-icon.svg"  class="product__item-img" alt="product">
+                </li>
+                <li class="product__item">
+                  <div class="product__item-info">
+                    <p class="product__item-title">Ranch Burgers</p>
+                    <p class="product__item-weight">150g</p>
+                  </div>
+                  <p class="product__item-price">$7.75</p>
+                  <img src="images/product-icon.svg"  class="product__item-img" alt="product">
+                </li>
+                <li class="product__item">
+                  <div class="product__item-info">
+                    <p class="product__item-title">Mushroom Burgers</p>
+                    <p class="product__item-weight">150g</p>
+                  </div>
+                  <p class="product__item-price">$7.00</p>
+                  <img src="images/empty-product-icon.svg"  class="product__item-img" alt="product">
+                </li>
+                <li class="product__item">
+                  <div class="product__item-info">
+                    <p class="product__item-title">Ranch Burgers</p>
+                    <p class="product__item-weight">150g</p>
+                  </div>
+                  <p class="product__item-price">$7.75</p>
+                  <img src="images/product-icon.svg"  class="product__item-img" alt="product">
+                </li>
+                <li class="product__item">
+                  <div class="product__item-info">
+                    <p class="product__item-title">Mushroom Burgers</p>
+                    <p class="product__item-weight">150g</p>
+                  </div>
+                  <p class="product__item-price">$7.00</p>
+                  <img src="images/empty-product-icon.svg"  class="product__item-img" alt="product">
+                </li>
+                <li class="product__item">
+                  <div class="product__item-info">
+                    <p class="product__item-title">Ranch Burgers</p>
+                    <p class="product__item-weight">150g</p>
+                  </div>
+                  <p class="product__item-price">$7.75</p>
+                  <img src="images/product-icon.svg"  class="product__item-img" alt="product">
+                </li>
+                <li class="product__item">
+                  <div class="product__item-info">
+                    <p class="product__item-title">Mushroom Burgers</p>
+                    <p class="product__item-weight">150g</p>
+                  </div>
+                  <p class="product__item-price">$7.00</p>
+                  <img src="images/empty-product-icon.svg"  class="product__item-img" alt="product">
+                </li>
+                <li class="product__item">
+                  <div class="product__item-info">
+                    <p class="product__item-title">Ranch Burgers</p>
+                    <p class="product__item-weight">150g</p>
+                  </div>
+                  <p class="product__item-price">$7.75</p>
+                  <img src="images/product-icon.svg"  class="product__item-img" alt="product">
+                </li>
+                <li class="product__item">
+                  <div class="product__item-info">
+                    <p class="product__item-title">Mushroom Burgers</p>
+                    <p class="product__item-weight">150g</p>
+                  </div>
+                  <p class="product__item-price">$7.00</p>
+                  <img src="images/empty-product-icon.svg"  class="product__item-img" alt="product">
+                </li>
+                <li class="product__item">
+                  <div class="product__item-info">
+                    <p class="product__item-title">Ranch Burgers</p>
+                    <p class="product__item-weight">150g</p>
+                  </div>
+                  <p class="product__item-price">$7.75</p>
+                  <img src="images/product-icon.svg"  class="product__item-img" alt="product">
+                </li>
+                <li class="product__item">
+                  <div class="product__item-info">
+                    <p class="product__item-title">Mushroom Burgers</p>
+                    <p class="product__item-weight">150g</p>
+                  </div>
+                  <p class="product__item-price">$7.00</p>
+                  <img src="images/empty-product-icon.svg"  class="product__item-img" alt="product">
+                </li>
+              </ul>
+            </div>
+          </div>
 
-        <p class="sleepSchoolApp__applyVoucher-term">1 Year of Access</p>
-        <p class="sleepSchoolApp__applyVoucher-desc">Press the ‘Apply Voucher‘ <br/> button below</p>
-        <p class="sleepSchoolApp__applyVoucher-desc">to apply your voucher to your <br /> Sleep School account.</p>
+          <!--
+            IF not tab
+            <footer class="footer">
+            <p class="footer__empty-title">WristBand Information</p>
+            <div class="footer__empty-wrapper">
+              <img src="images/tab-icon.png" srcSet='images/tab-icon.png 1x, images/tab-icon@2x.png 2x, images/tab-icon@3x.png 3x' class="footer__empty-icon" alt="Tab"  />
+              <p class="footer__empty-text">Please tab a Wristband to Link!</p>
+            </div>
+          </footer> -->
 
-        <a href="#" class="sleepSchoolApp__btn link sleepSchoolApp__applyVoucher-btn">APPLY VOUCHER</a>
+          <footer class="footer">
+            <div class="footer__user-wrapper">
+              <p class="footer__user-title">WristBand Information</p>
+              <div class="footer__user-body">
+                <div class="footer__user-info">
+                  <img src="images/user-img.svg" class="footer__user-img" alt="user">
+                  <div class="footer__user-info-inner">
+                    <p class="footer__user-name">Eleanor Russel</p>
+                    <p class="footer__user-ticket">Vip ticket holder</p>
+                  </div>
+                </div>
 
-        <div class="sleepSchoolApp__applyVoucher-links">
-          <p class="sleepSchoolApp__applyVoucher-emailLink">ajwbaxter@gmail.com</p> ,&nbsp;
-          <a href="#" class="sleepSchoolApp__applyVoucher-link link">NOT YOU?</a>
+                <button class="footer__user-btn link">
+                  Unlink
+                </button>
+              </div>
+            </div>
+          </footer>
         </div>
-
-        <footer class="sleepSchoolApp__footer">
-          <p class="sleepSchoolApp__footer-title">Need help?</p>
-          <a href="mailto:support@thesleepschool.org" class="sleepSchoolApp__footer-link link">support@thesleepschool.org</a>
-        </footer>
-      </div>
-
+      </main>
     </div>
+    @@include('./partial/aside.html')
   </div>
-
 </body>
 </html>

@@ -1,0 +1,43 @@
+$block : ".positionFilter";
+
+#{$block}{
+  &__wrapper{
+    margin-bottom: 32px;
+  }
+  &__list{
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    width: 100%;
+    align-items: flex-start;
+  }
+  &__item{
+    display: flex;
+    min-width: 90px;
+    justify-content: center;
+    font-family: $font-SFProText;
+    padding: 17px 32px;
+    border-radius: 56px;
+    background-color: #fff;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 22px;
+    text-align: center;
+    color: #132645;
+    letter-spacing: -0.41px;
+    transition: all 0.2s ease;
+    &:not(:last-child){
+      margin-right: 24px;
+    }
+    &:hover{
+      transition: all 0.2s ease;
+      cursor: pointer;
+      background: #F07613;
+      color: #fff;
+    }
+    &--active{
+      background: #F07613;
+      color: #fff;
+    }
+  }
+}
