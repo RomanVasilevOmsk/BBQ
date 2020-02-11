@@ -1,3 +1,142 @@
 <aside class="mainLayout__aside">
-  aside
+  <form action="#" class="order-form">
+    <header class="order-form__header">
+      <h3 class="order-form__title">
+        CurrentOrder
+      </h3>
+      <div class="order-form__controls">
+        <button class="order-form__clear-btn link">Clear all</button>
+        <button class="order-form__settings link"></button>
+      </div>
+    </header>
+    <ul class="order-list">
+      <li class="order-list__item order-product">
+        <div class="order-product__desc">
+          <img src="images/burg.png" alt="product" class="order-product__img">
+          <p class="order-product__name">
+            Stuffed Flank Steak
+          </p>
+        </div>
+        <div class="order-product__controls">
+          <button class="order-product__btn order-product__btn--minus order-product__btn--last"></button>
+          <span class="order-product__number">1</span>
+          <button class="order-product__btn order-product__btn--plus"></button>
+        </div>
+        <div class="order-product__cost">
+          $13.50
+        </div>
+      </li>
+      <li class="order-list__item order-product">
+        <div class="order-product__desc">
+          <img src="images/burg.png" alt="product" class="order-product__img">
+          <p class="order-product__name">
+            Stuffed Flank Steak
+          </p>
+        </div>
+        <div class="order-product__controls">
+          <button class="order-product__btn order-product__btn--minus"></button>
+          <span class="order-product__number">1</span>
+          <button class="order-product__btn order-product__btn--plus"></button>
+        </div>
+        <div class="order-product__cost">
+          $13.50
+        </div>
+      </li>
+      <li class="order-list__item order-product">
+        <div class="order-product__desc">
+          <img src="images/burg.png" alt="product" class="order-product__img">
+          <p class="order-product__name">
+            Stuffed Flank Steak
+          </p>
+        </div>
+        <div class="order-product__controls">
+          <button class="order-product__btn order-product__btn--minus"></button>
+          <span class="order-product__number">1</span>
+          <button class="order-product__btn order-product__btn--plus"></button>
+        </div>
+        <div class="order-product__cost">
+          $13.50
+        </div>
+      </li>
+      <li class="order-list__item order-product">
+        <div class="order-product__desc">
+          <img src="images/burg.png" alt="product" class="order-product__img">
+          <p class="order-product__name">
+            Stuffed Flank Steak
+          </p>
+        </div>
+        <div class="order-product__controls">
+          <button class="order-product__btn order-product__btn--minus"></button>
+          <span class="order-product__number">1</span>
+          <button class="order-product__btn order-product__btn--plus"></button>
+        </div>
+        <div class="order-product__cost">
+          $13.50
+        </div>
+      </li>
+      <li class="order-list__item order-product">
+        <div class="order-product__desc">
+          <img src="images/burg.png" alt="product" class="order-product__img">
+          <p class="order-product__name">
+            Stuffed Flank Steak
+          </p>
+        </div>
+        <div class="order-product__controls">
+          <button class="order-product__btn order-product__btn--minus"></button>
+          <span class="order-product__number">1</span>
+          <button class="order-product__btn order-product__btn--plus"></button>
+        </div>
+        <div class="order-product__cost">
+          $13.50
+        </div>
+      </li>
+    </ul>
+    <div class="order-form__total-cost order-cost">
+      <ul class="order-cost__list">
+        <li class="order-cost__item">
+          <span class="order-cost__name">Subtotal</span>
+          <span class="order-cost__value">$35.25</span>
+        </li>
+        <li class="order-cost__item">
+          <span class="order-cost__name">Discounts</span>
+          <span class="order-cost__value">-$5.00</span>
+        </li>
+        <li class="order-cost__item">
+          <span class="order-cost__name">Sales Tax</span>
+          <span class="order-cost__value">$2.25</span>
+        </li>
+      </ul>
+      <div class="order-cost__total">
+        <span class="order-cost__name order-cost__name--total">
+          Total
+        </span>
+        <span class="order-cost__value order-cost__value--total">
+          $32.50
+        </span>
+      </div>
+    </div>
+    <div class="order-form__pay-info order-pay">
+      <div class="order-pay__desc">
+        <div class="order-pay__method">
+          Cashless credit
+        </div>
+        <div class="order-pay__cost">$32.50</div>
+        <div class="order-pay__status">Available</div>
+      </div>
+      <button class="order-pay__btn">
+        Apply
+      </button>
+    </div>
+    <button type="submit" class="order-form__submit">
+      Pay with WRISTBAND
+    </button>
+    <div class="order-form__balance order-balance">
+      <span class="order-balance__name">
+        Balance due
+      </span>
+      <span class="order-balance__value">
+        $0.00
+      </span>
+    </div>
+  </form>
 </aside>
