@@ -4,8 +4,13 @@ $block : ".mainLayout";
   height: 100vh;
   width: 100%;
   display: flex;
+  &__dashboard-wrapper {
+    flex: 1 1;
+  }
   &__dashboard{
-    max-width: calc(100vw - 472px);
+    //max-width: calc(100vw - 472px);
+    max-width: 1260px;
+    margin: 0 auto;
     overflow: auto;
     height: 100%;
     &-wrapper{
@@ -23,7 +28,7 @@ $block : ".mainLayout";
     }
   }
   &__aside{
-    flex: 1;
+    flex: 0 1 600px;
     display: flex;
   }
 }

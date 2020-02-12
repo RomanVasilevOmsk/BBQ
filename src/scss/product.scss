@@ -2,13 +2,12 @@ $block : ".product";
 
 #{$block}{
   &__wrapper{
-    // margin-bottom: 6px;
+    //margin-bottom: 24px;
   }
   &__list{
     display: grid;
     grid-template-columns: 298px 298px 298px 298px;
     grid-gap: 16px;
-    margin-bottom: 24px;
   }
   &__item{
     display: flex;

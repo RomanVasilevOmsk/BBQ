@@ -1,4 +1,4 @@
-# Sleep School
+# BBQ
 
 Setup instructions
 
