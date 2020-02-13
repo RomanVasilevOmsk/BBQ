@@ -1,6 +1,5 @@
 document.addEventListener("DOMContentLoaded", function (event) {
-  console.log("hello word");
-  //Show and close modals
+
   const openPayModalBtn = document.querySelector('.order-form__submit');
   const openHelpModalBtn = document.querySelector('.header__helpBtn');
   const payModal = document.querySelector('.modal-pay');
@@ -80,7 +79,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
         }
     }
 });
-  
+
   hideTabs(0, tabs);
   showTabs(2,tabs);
 
