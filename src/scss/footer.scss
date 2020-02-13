@@ -56,6 +56,7 @@ $block : ".footer";
       font-size: 15px;
       line-height: 20px;
       text-transform: uppercase;
+      letter-spacing: -0.24px;
     }
 
     &-body {
@@ -88,7 +89,8 @@ $block : ".footer";
     }
 
     &-ticket {
-      padding: 8px 12px;
+      padding: 8px 5px;
+      max-width: 136px;
       text-align: center;
       background: linear-gradient(90deg, #E2AF16 0%, #F07613 33.77%, #D137A5 100%);
       border-radius: 22px;
@@ -132,6 +134,7 @@ $block : ".footer";
       font-weight: 600;
       font-size: 15px;
       line-height: 20px;
+      letter-spacing: -0.24px;
       text-transform: uppercase;
 
       &--grey {
@@ -144,8 +147,10 @@ $block : ".footer";
     }
 
     .promo-form {
+      display: flex;
       &__radio-wrapper {
         position: relative;
+        flex-basis: 205px;
         &:not(:last-of-type) {
           margin-right: 15px;
         }
@@ -164,7 +169,7 @@ $block : ".footer";
       &__label {
         display: block;
         position: relative;
-        min-width: 201px;
+        max-width: 205px;
         padding: 27px 10px;
         background: #F4F5F6;
         background-clip: padding-box;
@@ -175,7 +180,9 @@ $block : ".footer";
         font-weight: bold;
         font-size: 17px;
         line-height: 22px;
+        letter-spacing: -0.41px;
         z-index: 2;
+        text-transform: capitalize;
       }
 
       &__radio:checked ~ .promo-form__label {

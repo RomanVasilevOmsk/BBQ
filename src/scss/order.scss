@@ -11,7 +11,7 @@ $block: ".order-form";
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 41px;
+    margin-bottom: 46px;
   }
 
   &__title {
@@ -75,7 +75,7 @@ $block: ".order-form";
 
   .order-list {
     position: relative;
-    margin-bottom: 21px;
+    margin-bottom: 17px;
     height: calc(100% - 670px);
     overflow: auto;
 
@@ -108,11 +108,18 @@ $block: ".order-form";
         font-size: 17px;
         line-height: 22px;
         color: #000;
+        letter-spacing: -0.41px;
       }
 
-      &__controls {
+      &__control {
         display: flex;
         align-items: center;
+      }
+
+      &__number-control {
+        display: flex;
+        align-items: center;
+        margin-right: 50px;
       }
 
       &__btn {
@@ -240,6 +247,7 @@ $block: ".order-form";
       line-height: 20px;
       text-transform: uppercase;
       margin-bottom: 4px;
+      letter-spacing: -0.24px;
     }
 
     &__message {

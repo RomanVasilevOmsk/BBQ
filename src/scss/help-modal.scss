@@ -36,6 +36,7 @@ $block: ".help-modal";
     line-height: 41px;
     letter-spacing: 0.41px;
     margin-bottom: 24px;
+    text-transform: capitalize;
   }
 
   &__description {
@@ -85,12 +86,45 @@ $block: ".help-modal";
     }
 
     &--active {
-      font-weight: 600;
       color: #132645;
     }
   }
 
-  &__tab {}
+  &__tab {
+    position: relative;
+    min-width: 640px;
+    min-height: 360px;
+  }
+
+  &__video {
+    display: block;
+    width: 100%;
+    min-height: 360px;
+    border-radius: 16px;
+  }
+
+  &__video-playBtn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(20px);
+  }
+
+  &__video-icon {
+    position: absolute;
+    top: 33px;
+    left: 34px;
+    width: 0;
+	  height: 0;
+	  border-top: 8px solid transparent;
+	  border-left: 16px solid #FFFFFF;
+	  border-bottom: 8px solid transparent;
+  }
 
   &__footer {
     display: flex;
