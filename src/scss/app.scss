@@ -4,6 +4,7 @@
 //Base
 @import 'commons/fonts';
 @import 'base/common';
+@import 'base/reuse-classes';
 @import 'mainLayout';
 // @import 'helpFilmsMenu';
 // @import 'film';
@@ -15,6 +16,9 @@
 @import 'positionFilter';
 @import 'product';
 @import 'footer';
+@import 'order';
+@import 'modal-pay';
+@import 'help-modal';
 // @import 'sleepSchoolApp';
 // @import 'stream';
 

@@ -4,9 +4,17 @@ $lg-width: 1199px;
 
 html {
   height: 100%;
+  box-sizing: border-box;
+}
+
+*, 
+*::before, 
+*::after{
+  box-sizing: inherit;
 }
 
 body {
+  position: relative;
   font-family: $font-SFProDisplay;
   font-weight: 400;
   margin: 0;
@@ -51,15 +59,6 @@ a {
 
 div:focus{
   outline: none;
-}
-
-.link{
-  transition: all 0.2s ease;
-  &:hover{
-    cursor: pointer;
-    opacity: 0.8;
-    transition: all 0.2s ease;
-  }
 }
 
 input{

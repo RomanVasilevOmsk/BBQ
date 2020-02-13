@@ -31,7 +31,7 @@ var paths = {
         html:'src/**/*.html',
         style:'src/scss/app.scss',
         script:'src/js/*.js',
-        fonts: 'src/fonts/*.*',
+        fonts: 'src/fonts/**/*.*',
         contentImages: 'src/images/**/*.*',
     },
     dist: {
